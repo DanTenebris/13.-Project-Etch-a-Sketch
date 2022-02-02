@@ -1,0 +1,48 @@
+@media only screen and (max-height: 400px) {
+  main {
+    width: 95vw;
+    height: 65vh;
+  }
+}
+
+@media only screen and (min-height: 401px) {
+  main {
+    width: 95vw;
+    height: 80vh;
+  }
+}
+
+@media only screen and (min-height: 751px) {
+  main {
+    width: 95vw;
+    height: 85vh;
+  }
+}
+
+@media only screen and (min-height: 900px) {
+  main {
+    width: 95vw;
+    height: 90vh;
+  }
+}
+
+body {
+  background-color: rgb(235, 215, 192);
+  display: grid;
+  flex-direction: column;
+  grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  font-size: 20px;
+  height: 70px;
+  background-color: yellowgreen;
+  border: none;
+  display: inline-block;
+  border-radius: 12px;
+  font-weight: bold;
+}
